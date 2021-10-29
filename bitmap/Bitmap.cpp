@@ -20,10 +20,14 @@ bool Bitmap::write(string filename){
     if(!of){
         return false;
     }
+    of.write(reinterpret_cast<char*>(fileHeader), sizeof(fileHeader));
+    of.write(reinterpret_cast<char*>(infoHeader), sizeof(infoHeader));
+    of.write(reinterpret_cast<char*>(_pPixels.get()), _height*_width*3);
+    /*
     of.write((char*)fileHeader, sizeof(fileHeader));
     of.write((char*)infoHeader, sizeof(infoHeader));
     of.write((char*)_pPixels.get(), _height*_width*3);
-
+    */
     of.close();
 
     return true;

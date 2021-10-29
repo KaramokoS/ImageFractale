@@ -1,5 +1,4 @@
-﻿  Building Custom Rule C:/Users/Samas/Desktop/C++Job/Entretien_INRIA/bitmap/CMakeLists.txt
-  Bitmap.cpp
+﻿  Bitmap.cpp
 C:\Users\Samas\Desktop\C++Job\Entretien_INRIA\bitmap\Bitmap.h(5,1): warning C4103: alignement modifié après l'ajout de l'en-tête, peut être dû à l'absence de #pragma pack(pop)
 C:\Users\Samas\Desktop\C++Job\Entretien_INRIA\bitmap\Bitmap.cpp(1,1): warning C4103: alignement modifié après l'ajout de l'en-tête, peut être dû à l'absence de #pragma pack(pop)
   bitmap.vcxproj -> C:\Users\Samas\Desktop\C++Job\Entretien_INRIA\build\bitmap\Debug\bitmap.lib

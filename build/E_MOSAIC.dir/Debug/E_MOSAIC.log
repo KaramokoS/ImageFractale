@@ -1,8 +1,9 @@
-﻿  Building Custom Rule C:/Users/Samas/Desktop/C++Job/Entretien_INRIA/CMakeLists.txt
-  main.cpp
+﻿  main.cpp
 C:\Users\Samas\Desktop\C++Job\Entretien_INRIA\bitmap\Bitmap.h(5,1): warning C4103: alignement modifié après l'ajout de l'en-tête, peut être dû à l'absence de #pragma pack(pop)
 C:\Users\Samas\Desktop\C++Job\Entretien_INRIA\main.cpp(2,1): warning C4103: alignement modifié après l'ajout de l'en-tête, peut être dû à l'absence de #pragma pack(pop)
-C:\Users\Samas\Desktop\C++Job\Entretien_INRIA\main.cpp(11,47): warning C4305: 'argument' : troncation de 'int' à 'uint8_t'
-C:\Users\Samas\Desktop\C++Job\Entretien_INRIA\main.cpp(11,39): warning C4309: 'argument' : troncation de valeur de constante
-C:\Users\Samas\Desktop\C++Job\Entretien_INRIA\main.cpp(11,34): warning C4309: 'argument' : troncation de valeur de constante
+C:\Users\Samas\Desktop\C++Job\Entretien_INRIA\main.cpp(11,26): warning C4552: '<' : résultat de l'expression non utilisé
+C:\Users\Samas\Desktop\C++Job\Entretien_INRIA\main.cpp(12,30): warning C4552: '<' : résultat de l'expression non utilisé
+C:\Users\Samas\Desktop\C++Job\Entretien_INRIA\main.cpp(19,47): warning C4305: 'argument' : troncation de 'int' à 'uint8_t'
+C:\Users\Samas\Desktop\C++Job\Entretien_INRIA\main.cpp(19,39): warning C4309: 'argument' : troncation de valeur de constante
+C:\Users\Samas\Desktop\C++Job\Entretien_INRIA\main.cpp(19,34): warning C4309: 'argument' : troncation de valeur de constante
   E_MOSAIC.vcxproj -> C:\Users\Samas\Desktop\C++Job\Entretien_INRIA\build\Debug\E_MOSAIC.exe
