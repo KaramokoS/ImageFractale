@@ -1,0 +1,10 @@
+^C:\USERS\SAMAS\DESKTOP\C++JOB\ENTRETIEN_INRIA\MANDELBROT\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Samas/Desktop/C++Job/Entretien_INRIA -BC:/Users/Samas/Desktop/C++Job/Entretien_INRIA/build --check-stamp-file C:/Users/Samas/Desktop/C++Job/Entretien_INRIA/build/mandelbrot/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

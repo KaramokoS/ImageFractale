@@ -1,0 +1,10 @@
+^C:\USERS\SAMAS\DESKTOP\C++JOB\ENTRETIEN_INRIA\BUILD\CMAKEFILES\1D2DA7D241EE2C16EC409E7BAFFFDFB5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Samas/Desktop/C++Job/Entretien_INRIA -BC:/Users/Samas/Desktop/C++Job/Entretien_INRIA/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Samas/Desktop/C++Job/Entretien_INRIA/build/E_MOSAIC.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

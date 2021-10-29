@@ -1,0 +1,5 @@
+C:/Users/Samas/Desktop/C++Job/Entretien_INRIA/build/CMakeFiles/E_MOSAIC.dir
+C:/Users/Samas/Desktop/C++Job/Entretien_INRIA/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Samas/Desktop/C++Job/Entretien_INRIA/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Samas/Desktop/C++Job/Entretien_INRIA/build/bitmap/CMakeFiles/bitmap.dir
+C:/Users/Samas/Desktop/C++Job/Entretien_INRIA/build/mandelbrot/CMakeFiles/mandelbrot.dir
